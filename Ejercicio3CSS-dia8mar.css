@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ventana {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px black;
+    width: 640px;
+    height: 360px;
+    position: relative;
+    background-image: url("./Diona.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#recuadro1 {
+    border: solid 4px black;
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#recuadro2 {
+    border: solid 4px black;
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#recuadro3 {
+    border: solid 4px black;
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#recuadro4 {
+    border: solid 4px black;
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
